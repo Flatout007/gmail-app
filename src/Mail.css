@@ -1,0 +1,170 @@
+.Mail {
+    width: 80%;
+    height: 950px;
+    border-radius: 1.2em;
+    position: relative;
+    top: -660px;
+    left: 288px;
+    font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    display: flex;
+    background-color: #e9eaed;
+}
+
+.mail__tools_container_A {
+    height: 2.5em;
+    width: 260px;
+    margin-top: 16px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail__tools_container_A div {
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.mail__tools_container_A div:not(div:last-child):hover {
+    background-color: #e9eaed;
+    cursor: pointer;
+}
+
+.mail__tools_container_A div:nth-child(1) {
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/arrow_back/default/20px.svg") no-repeat center;
+    border-radius: 100%;
+}
+
+.mail__tools_container_A div:nth-child(2) {
+    margin-left: 50px;
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/archive/default/20px.svg") no-repeat center;
+}
+
+.mail__tools_container_A div:nth-child(3) {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/report/default/20px.svg") no-repeat center;
+
+}
+
+.mail__tools_container_A div:nth-child(4) {
+    background-color: white;
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/delete/default/20px.svg") no-repeat center;
+
+}
+
+.mail__tools_container_A div:nth-child(5) {
+    height: 1.2em;
+    width: 0.01em;
+    display: inline;
+    background-color: #e9eaed;
+    margin-left: 16px;
+}
+
+.mail__tools_container_B div:not(div:last-child):hover {
+    background-color: #e9eaed;
+}
+
+.mail__tools_container_B {
+    height: 2.5em;
+    width: 200px;
+    margin-top: 16px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.mail__tools_container_B div {
+    height: 2.5em;
+    width: 2.5em;
+    cursor: pointer;
+}
+
+.mail__tools_container_B div:nth-child(1) {
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/mail/default/20px.svg") no-repeat center;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.mail__tools_container_B div:nth-child(2) {
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/schedule/default/20px.svg") no-repeat center;
+}
+
+.mail__tools_container_B div:nth-child(3) {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: url("https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/add_task/default/20px.svg") no-repeat center;
+
+}
+
+.mail__tools_container_B div:nth-child(4) {
+    height: 1.2em;
+    width: 0.01em;
+    background-color: #e9eaed;
+    margin-left: 10px;
+}
+
+.mail__body {
+    position: absolute;
+    width: 95%;
+    height: 892px;
+    left: 35px;
+    top: 92px;
+    background-color: white;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+
+.mail__body_header {
+    position: relative;
+    height: 7em;
+    margin-left: 20px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e9eaed;
+    font-size: 1rem;
+    padding: 10px;
+    overflow: break-word;
+}
+
+.mail__body_header>* {
+    margin-left: 25px;
+}
+
+.mail__tools_container {
+    display: flex;
+    width: 100%;
+    height: 3.5em;
+    background-color: white;
+}
+
+.parallelogram-icon {
+    cursor: pointer;
+    position: relative;
+    left: 2px;
+    transform: scale(1.5);
+    height: 1em;
+    width: 1em;
+    background: url("https://www.gstatic.com/images/icons/material/system_gm/1x/label_important_outline_black_20dp.png") no-repeat center;
+}
+
+.parallelogram-icon-gold {
+    cursor: pointer;
+    position: relative;
+    left: 2px;
+    transform: scale(1.5);
+    height: 1em;
+    width: 1em;
+    background: url("https://www.gstatic.com/images/icons/material/system/1x/label_important_googyellow500_20dp.png") no-repeat center;
+}
+
+.mail__body_time {
+    position: absolute;
+    color: #dcdddf;
+    font-weight: 900;
+    margin-left: 94%;
+}
+
+.mail__body_message {
+    margin-left: 16px;
+}

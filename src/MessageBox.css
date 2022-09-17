@@ -1,0 +1,232 @@
+.MessageBox {
+    width: 40em;
+    height: 40em;
+    position: absolute;
+    left: 0%;
+    top: 400px;
+    border-radius: 0.5em;
+    background-color: #FFFFFF;
+    z-index: 100;
+}
+
+@media only screen and (min-width: 1800px) {
+    .MessageBox {
+        width: 40em;
+        height: 40em;
+        position: absolute;
+        left: 60%;
+        top: 400px;
+        border-radius: 0.5em;
+        background-color: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .MessageBox {
+        width: 40em;
+        height: 40em;
+        position: absolute;
+        left: 40%;
+        top: 400px;
+        border-radius: 0.5em;
+        background-color: #FFFFFF;
+    }
+}
+
+.new_message {
+    background-color: #F2F6FC;
+    height: 2.6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.new_message p {
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.message__box_icons {
+    width: 100px;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.message__box_icons div {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.message__box_icons div:nth-child(1) {
+    background: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/ic_minimize_16px_1x.png") no-repeat center;
+}
+
+.message__box_icons div:nth-child(1):hover {
+    background-color: #e9eaed;
+    transition: 0.5s;
+}
+
+.message__box_icons div:nth-child(2) {
+    background: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/ic_open_in_full_16px_1x.png") no-repeat center;
+}
+
+.message__box_icons div:nth-child(2):hover {
+    background-color: #e9eaed;
+    transition: 0.5s;
+}
+
+.message__box_icons div:nth-child(3) {
+    background: url("https://ssl.gstatic.com/ui/v1/icons/mail/rfr/ic_close_16px_1x.png") no-repeat center;
+}
+
+.message__box_icons div:nth-child(3):hover {
+    background-color: #e9eaed;
+    transition: 0.5s;
+}
+
+.MessageBox form {
+    height: 100%;
+    width: 100%;
+}
+
+.message__box_input_to {
+    width: 85%;
+    height: 3em;
+    border-bottom: 2px solid #e9eaed;
+    font-size: 1.1rem;
+    text-indent: 16px;
+    position: relative;
+    transform: translateX(8.2%);
+}
+
+.message__box_input_to:focus {
+    outline: none;
+}
+
+.MessageBox form p:nth-child(1) {
+    display: inline-block;
+    font-size: 1rem;
+    color: #777;
+    border-bottom: 2px solid #e9eaed;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    position: absolute;
+    top: 3.7em;
+    left: 0.8em;
+}
+
+.message__box_input_subject {
+    width: 88%;
+    height: 3em;
+    border-bottom: 2px solid #e9eaed;
+    font-size: 1.1rem;
+    text-indent: 5px;
+    position: relative;
+    transform: translateX(4%);
+}
+
+.message__box_input_subject::placeholder {
+    position: relative;
+}
+
+.message__box_input_subject:focus {
+    outline: none;
+}
+
+.MessageBox form textarea {
+    width: 90%;
+    resize: none;
+    outline: none;
+    text-indent: 16px;
+    margin: 16px;
+    height: 300px;
+}
+
+.MessageBox form button {
+    height: 2.5em;
+    width: 4.5em;
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b57d0;
+    margin-left: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5ms;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.MessageBox form button:hover {
+    box-shadow: 1px 1px 20px -10px rgba(0, 0, 0, 0.75);
+    background-color: #1a73e8;
+    transform: scale(1.003)
+}
+
+.arrow {
+    height: 2.5em;
+    width: 3em;
+    position: relative;
+    left: 85px;
+    top: 40px;
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b57d0;
+    border-left: 1px solid #062e6f;
+}
+
+.arrow li {
+    background: url("https://www.gstatic.com/images/icons/material/system_gm/1x/arrow_drop_down_white_20dp.png") no-repeat center;
+    list-style: none;
+    height: 0.5em;
+    width: 0.5em;
+    transform: scale(1.3);
+    margin-right: 2px;
+}
+
+.arrow:hover {
+    box-shadow: 1px 1px 20px -10px rgba(0, 0, 0, 0.75);
+    background-color: #1a73e8;
+    transform: scale(1.0005);
+}
+
+.message__box_error_message {
+    font-size: 1rem;
+    color: #777;
+    border-bottom: 2px solid #e9eaed;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    position: absolute;
+    top: 25em;
+    left: 14em;
+}
+
+.message__box_error_message:hover {
+    background-color: darksalmon;
+    color: whitesmoke;
+    cursor: help;
+}
+
+.message__box_error_to {
+    font-size: 1rem;
+    border-bottom: 2px solid #e9eaed;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    position: absolute;
+    top: 3.7em;
+    left: 0.8em;
+    pointer-events: none;
+}

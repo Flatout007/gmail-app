@@ -1,0 +1,96 @@
+
+// @ALT Aside icons 
+
+// inbox
+https://www.gstatic.com/images/icons/material/system_gm/1x/inbox_gm_black_20dp.png
+
+// star
+https://www.gstatic.com/images/icons/material/system_gm/1x/star_black_20dp.png
+
+// clock 
+https://www.gstatic.com/images/icons/material/system_gm_filled/1x/schedule_black_20dp.png
+
+// important
+https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_important_black_20dp.png
+
+// chart
+https://www.gstatic.com/images/icons/material/system_gm/1x/chat_black_20dp.png
+
+// send arrow
+https://www.gstatic.com/images/icons/material/system_gm_filled/1x/send_black_20dp.png
+
+// draft 
+https://www.gstatic.com/images/icons/material/system_gm_filled/1x/insert_drive_file_black_20dp.png
+
+
+
+// @Email Icons
+
+// box
+https://www.gstatic.com/images/icons/material/system_gm/1x/check_box_outline_blank_black_20dp.png
+
+// star
+https://www.gstatic.com/images/icons/material/system_gm/1x/star_border_black_20dp.png
+
+// star gold
+https://www.gstatic.com/images/icons/material/system/1x/star_googyellow500_20dp.png
+
+// important
+https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_important_black_20dp.png
+
+// box checked
+https://www.gstatic.com/images/icons/material/system_gm/1x/check_box_black_20dp.pn
+
+// tag 
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/sell/fill1/20px.svg
+
+// computer screen
+https://www.gstatic.com/images/icons/material/system_gm/1x/inbox_black_20dp.png
+
+// social
+https://www.gstatic.com/images/icons/material/system_gm/1x/people_black_20dp.png
+
+
+
+
+// @MessageBox Icons
+
+// minimize 
+https://ssl.gstatic.com/ui/v1/icons/mail/rfr/ic_minimize_16px_1x.png
+
+// expand arrows
+https://ssl.gstatic.com/ui/v1/icons/mail/rfr/ic_open_in_full_16px_1x.png
+
+// close icon
+https://ssl.gstatic.com/ui/v1/icons/mail/rfr/ic_close_16px_1x.png
+
+
+
+// @Mail icons
+
+// back-arrow 
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/arrow_back/default/20px.svg
+
+// inbox with arrow 
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/archive/default/20px.svg
+
+// warning
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/report/default/20px.svg
+
+// trash
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/delete/default/20px.svg
+
+// mail
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/mail/default/20px.svg
+
+// clock
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/schedule/default/20px.svg
+
+// check inside circle
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/add_task/default/20px.svg
+
+// parallelogram
+https://fonts.gstatic.com/s/i/short-term/release/googlesymbols/label/default/20px.svg
+
+// parallelogram gold
+https://www.gstatic.com/images/icons/material/system/1x/label_important_googyellow500_20dp.png
